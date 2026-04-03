@@ -119,7 +119,7 @@ function TestimonialCard({ testimonial }: { testimonial: Testimonial }) {
 
 export function TestimonialsSection() {
   return (
-    <section className="bg-[#0A0A0A] py-[100px]">
+    <section id="testimonials" className="bg-[#0A0A0A] py-[100px]">
       <div className="max-w-[1280px] mx-auto px-8">
         {/* Section header */}
         <div className="text-center mb-16">

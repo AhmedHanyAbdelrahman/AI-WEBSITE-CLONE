@@ -37,7 +37,7 @@ function FeatureCard({ badge, title, body }: FeatureCardProps) {
 
 export function AboutSection() {
   return (
-    <section className="bg-[#111111] py-[100px]">
+    <section id="about" className="bg-[#111111] py-[100px]">
       <div className="max-w-[1280px] mx-auto px-8">
         {/* Two-column layout */}
         <div className="flex flex-col lg:flex-row gap-[80px]">

@@ -135,7 +135,7 @@ export function FAQSection() {
   }
 
   return (
-    <section className="bg-[#111111] py-[100px]">
+    <section id="faq" className="bg-[#111111] py-[100px]">
       <div className="max-w-[900px] mx-auto px-8">
         {/* Section header */}
         <div className="text-center mb-16">
